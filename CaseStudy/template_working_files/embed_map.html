@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="https://cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/favicons/favicon.ico?1467884079" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <title>languages_by_censustracts_nyc</title>
+    <meta name="description" content="Map created by  in CARTO">
+    <meta name="keywords" content="languages, by, censustracts, nyc, datasets, maps, data visualization, spatial data, geospatial, CARTO">
+    <meta name="author" content="michellejm">
+    
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+    <meta property="og:title" content="languages_by_censustracts_nyc">
+    <meta property="og:site_name" content="CARTO">
+    <meta property="og:description" content="Map created by  in CARTO">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map">
+    <meta property="og:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/michellejm/api/v1/map/static/named/tpl_f07c01f8_85b7_11e6_96f9_0e05a8b3e3d7/1200/630.png">
+      <meta property="fb:app_id" content="204330262947622">
+      <meta property="fb:admins" content="500593636634213">
+    <meta property="article:publisher" content="https://www.facebook.com/cartodb">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cartodb">
+    <meta name="twitter:title" content="languages_by_censustracts_nyc">
+    <meta name="twitter:description" content="Map created by  in CARTO">
+    <meta name="twitter:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/michellejm/api/v1/map/static/named/tpl_f07c01f8_85b7_11e6_96f9_0e05a8b3e3d7/560/300.png">
+
+    
+  <style type="text/css">
+  html, body, #map {height: 100%; padding: 0; margin: 0;}
+  /* footer */
+  .cartodb-text {position:absolute; display:none; bottom:0; left:0; right:0; margin:0; padding:0 10px; background:white; font:normal 11px "Helvetica",Arial; color:#999999; border-top:1px solid #CCC; border-top:1px solid rgba(0,0,0,0); box-shadow:rgba(0,0,0,0.6) 0 0 1px 0; -webkit-box-shadow:rgba(0,0,0,0.6) 0 0 1px 0; -moz-box-shadow:rgba(0,0,0,0.6) 0 0 1px 0; -o-box-shadow:rgba(0,0,0,0.6) 0 0 1px 0; line-height:29px; z-index:2; }
+  .cartodb-text a {color:#397DB8; text-decoration:underline;}
+  .cartodb-text a.user { text-decoration:none }
+  .cartodb-text img {display:inline-block; *display:inline; vertical-align:middle; border-radius:16px; -webkit-border-radius:16px; -moz-border-radius:16px; zoom:1; text-decoration:none }
+  .cartodb-text span.username { text-decoration:underline }
+  /* likes */
+  .cartodb-text .like { float: right; display:inline-block; *display:inline; vertical-align:middle; zoom:1; text-decoration: none; color: #666; }
+  .cartodb-text .like .icon { display:inline-block; *display:inline; vertical-align:middle; zoom:1; position:relative; top: -1px; width: 14px; height: 14px; background-image:url('//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/images/layout/heart.png'); background-size: 14px 14px; -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7);  }
+  .cartodb-text .like.is-highlighted .icon { background-image:url('//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/images/layout/heart_highlighted.png'); background-size: 14px 14px; -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7); }
+  .cartodb-text .like .icon.is-animated { -ms-animation-duration: 400ms; -webkit-animation-duration: 400ms; animation-duration: 400ms; -webkit-animation-fill-mode: both; -ms-animation-fill-mode: both; animation-fill-mode: both; animation-timing-function: ease-in; -webkit-animation-timing-function: ease-in; } 
+  @-webkit-keyframes pulse { 0% { -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7); } 25% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } 50% { -webkit-transform: scale(.5); -ms-transform: scale(.5); transform: scale(.5); } 75% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } 100% { -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7); } }
+  @keyframes pulse { 0% { -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7); } 25% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } 50% { -webkit-transform: scale(.5); -ms-transform: scale(.5); transform: scale(.5); } 75% { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); } 100% { -webkit-transform: scale(.7); -ms-transform: scale(.7); transform: scale(.7); } }
+  .cartodb-text .like .icon.is-pulsating { -webkit-animation-name: pulse; -ms-animation-name: pulse; animation-name: pulse; }
+
+  /* not supported dialog */ 
+  #not_supported_dialog {position:absolute; width:356px; height:213px; top:50%; left:50%; margin-top:-107px; margin-left:-178px; padding:0; background-color:#FFF; text-align:center; font-family:'Helvetica', Arial; color:#666666; z-index:10000;}
+  #not_supported_dialog h2 {display:inline-block; width:77px; margin:30px 0 0; padding-bottom:16px; font-size:13px; font-weight:bold; border-bottom:1px solid #D9D9D9; vertical-align:top; zoom:1; *display:inline;}
+  #not_supported_dialog p {display:block; padding:0 40px; margin:12px 0 0; font-size:15px;}
+  #not_supported_dialog ul {position:absolute; bottom:0; left:0; right:0; display:block; margin:0; padding:0; list-style:none; border-top:1px solid #D9D9D9;}
+  #not_supported_dialog ul li {float:left; margin:0; padding:0; border-right:1px solid #D9D9D9;}
+  #not_supported_dialog ul li a {display:block; width:118px; height:74px; background-repeat:no-repeat; background-position:center center; font-size:0; line-height:0; text-indent:-9999px;}
+  #not_supported_dialog ul li.last {border:none;}
+  #not_supported_dialog a.safari {background-image:url('//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/images/layout/safari.png');}
+  #not_supported_dialog a.chrome {background-image:url('//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/images/layout/chrome.png');}
+  #not_supported_dialog a.firefox {background-image:url('//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/images/layout/firefox.png');}
+
+
+  :-webkit-full-screen .cartodb-map-wrapper { height: 100%!important; }
+  :-moz-full-screen .cartodb-map-wrapper { height: 100%!important; }
+  :-ms-fullscreen .cartodb-map-wrapper { height: 100%!important; }
+  :fullscreen .cartodb-map-wrapper { height: 100%!important; }
+
+    /* Styles showing up new cartodb text */
+    .cartodb-map-wrapper {bottom:30px!important;}
+    .cartodb-text {display:block;}
+
+</style>
+
+<link href="./cartodb.css" media="screen" rel="stylesheet" type="text/css">
+
+
+
+    <!--[if lt IE 9]>
+      <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/javascripts/modernizr.js" type="text/javascript"></script>
+    <![endif]-->
+  <style></style></head>
+  <body class="
+  embed-map
+">
+    
+    <div id="map"><div style="position: relative; width: 100%; height: 100%;"><div class="cartodb-map-wrapper leaflet-container leaflet-fade-anim" style="position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; width: 100%;" tabindex="0"><div class="leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-tile-pane"><div class="leaflet-layer" style="z-index: 0;"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" src="./192.png" style="height: 256px; width: 256px; left: 322px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(1).png" style="height: 256px; width: 256px; left: 66px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191.png" style="height: 256px; width: 256px; left: 322px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(1).png" style="height: 256px; width: 256px; left: 66px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193.png" style="height: 256px; width: 256px; left: 66px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(1).png" style="height: 256px; width: 256px; left: 322px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(2).png" style="height: 256px; width: 256px; left: -190px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(3).png" style="height: 256px; width: 256px; left: 578px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(2).png" style="height: 256px; width: 256px; left: -190px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(2).png" style="height: 256px; width: 256px; left: -190px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(3).png" style="height: 256px; width: 256px; left: 578px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(3).png" style="height: 256px; width: 256px; left: 578px; top: 388px;"></div></div><div class="leaflet-layer" style="z-index: 4;"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" src="./192(4).png" style="height: 256px; width: 256px; left: 322px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(5).png" style="height: 256px; width: 256px; left: 66px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(4).png" style="height: 256px; width: 256px; left: 322px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(5).png" style="height: 256px; width: 256px; left: 66px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(4).png" style="height: 256px; width: 256px; left: 66px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(5).png" style="height: 256px; width: 256px; left: 322px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(6).png" style="height: 256px; width: 256px; left: -190px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(7).png" style="height: 256px; width: 256px; left: 578px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(6).png" style="height: 256px; width: 256px; left: -190px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(6).png" style="height: 256px; width: 256px; left: -190px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(7).png" style="height: 256px; width: 256px; left: 578px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(7).png" style="height: 256px; width: 256px; left: 578px; top: 388px;"></div></div><div class="leaflet-layer" style="opacity: 0.99;"><div class="leaflet-tile-container"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" src="./192(8).png" style="height: 256px; width: 256px; left: 322px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(9).png" style="height: 256px; width: 256px; left: 66px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(8).png" style="height: 256px; width: 256px; left: 322px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(9).png" style="height: 256px; width: 256px; left: 66px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(8).png" style="height: 256px; width: 256px; left: 66px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(9).png" style="height: 256px; width: 256px; left: 322px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(10).png" style="height: 256px; width: 256px; left: -190px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./192(11).png" style="height: 256px; width: 256px; left: 578px; top: 132px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(10).png" style="height: 256px; width: 256px; left: -190px; top: 388px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(10).png" style="height: 256px; width: 256px; left: -190px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./191(11).png" style="height: 256px; width: 256px; left: 578px; top: -124px;"><img class="leaflet-tile leaflet-tile-loaded" src="./193(11).png" style="height: 256px; width: 256px; left: 578px; top: 388px;"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"></div><div class="leaflet-overlay-pane"></div><div class="leaflet-marker-pane"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control">© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, © <a href="https://carto.com/attributions" target="_blank">CARTO</a></div></div></div><div class="cartodb-infowindow" style="display: none;"><div class="cartodb-popup v2">
+  <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#close" class="cartodb-popup-close-button close">x</a>
+  <div class="cartodb-popup-content-wrapper">
+    <div class="cartodb-popup-content" style="max-height: 180px;">
+    </div>
+  </div>
+  <div class="cartodb-popup-tip-container"></div>
+</div>
+</div><div class="cartodb-share-dialog">      <div class="mamufas">      <div class="block modal " style="width: 430px;">      <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#close" class="close">x</a>      <div class="head">      <h3>Share this map</h3>      </div>      <div class="content">      <div class="buttons">      <h4>Social</h4>      <ul>      <li><a class="facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmichellejm.carto.com%2Fviz%2Ff07c01f8-85b7-11e6-96f9-0e05a8b3e3d7%2Fembed_map&amp;text=undefined:">Share on Facebook</a></li>      <li><a class="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fmichellejm.carto.com%2Fviz%2Ff07c01f8-85b7-11e6-96f9-0e05a8b3e3d7%2Fembed_map&amp;text=%23map" target="_blank">Share on Twitter</a></li>      <li><a class="link" href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/public_map" target="_blank">Link to this map</a></li>      </ul>      </div><div class="embed_code">      <h4>Embed this map</h4>      <textarea id="" name="" cols="30" rows="10">&lt;iframe width='100%' height='520' frameborder='0' src='https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen&gt;&lt;/iframe&gt;</textarea>      </div>      </div>      </div>      </div>      </div><div class="cartodb-share" style="display: block;"><a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#"></a></div><div class="cartodb-searchbox" style="display: block;">      <form>        <span class="loader"></span>        <input type="text" class="text" value="">        <input type="submit" class="submit" value="">      </form>    </div><div class="cartodb-layer-selector-box" style="display: block;">      <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#/change-visibility" class="layers">Visible layers<div class="count">1</div></a>      <div class="cartodb-dropdown border" style="width: 160px;">      <ul><li>      <a class="layer" href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#/change-layer">Chinese</a>      <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#switch" class="right disabled switch"><span class="handle"></span></a>    </li><li>      <a class="layer" href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#/change-layer">Arabic</a>      <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#switch" class="right enabled switch"><span class="handle"></span></a>    </li></ul><div class="tail"><span class="border"></span></div>      </div></div><div class="cartodb-zoom"><a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#zoom_in" class="zoom_in">+</a> <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#zoom_out" class="zoom_out">-</a></div><div class="cartodb-tiles-loader" style="opacity: 0;"><div class="loader" original-title=""></div></div><div class="cartodb-logo" style="position:absolute; bottom:0; left:0; display:block; border:none; z-index:1000000;"><a href="https://carto.com/?utm_source=Footer_Link&amp;utm_medium=referral&amp;utm_campaign=Embed_v1&amp;utm_content=Logo" target="_blank"><img width="71" height="29" src="./new_logo.png" style="position:absolute; bottom:8px; left:8px; display:block; width:71px!important; height:29px!important; border:none; outline:none;" alt="CARTO" title="CARTO"></a></div></div></div></div>
+
+    <div id="not_supported_dialog" style="display: none">
+      <h2>CARTO</h2>
+      <p>This visualization only works in modern browsers. Upgrade yours and enjoy.</p>
+      <ul>
+        <li><a href="http://www.apple.com/safari/" class="safari">Safari</a></li>
+        <li><a href="https://www.google.com/chrome/" class="chrome">Chrome</a></li>
+        <li class="last"><a href="http://www.mozilla.org/en-US/firefox/all/%E2%80%8E" class="firefox">Firefox</a></li>
+      </ul>
+    </div>
+
+    <div class="cartodb-text">
+      Map created by
+      <a class="user" href="https://michellejm.carto.com/me?utm_source=Footer_Link&amp;utm_medium=referral&amp;utm_campaign=Embed_v1&amp;utm_content=michellejm" target="_blank">
+          <img src="./20170118191758Mmcsweeney_profile.gif" width="16" height="16" alt="Michelle McSweeney" title="Michelle McSweeney">
+        <span class="username">Michelle McSweeney</span>
+      </a>
+
+      <a href="https://michellejm.carto.com/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/embed_map#like" class="like js-like">
+        <span class="icon"></span>
+        <span class="counter"></span>
+      </a>
+
+    </div>
+
+    
+  
+<script type="text/javascript" async="" src="./dc.js"></script><script src="./embed.js" type="text/javascript"></script>
+<script src="./public_like.js" type="text/javascript"></script>
+
+<script>
+
+  // Get url parameters
+  function get_url_params(conversion) {
+    conversion = conversion || {};
+
+    var tokens = location.search.slice(1).split('&');
+    var params = {};
+
+    for (var i = 0; i < tokens.length; ++i) {
+
+      var tk = tokens[i].split('=');
+      var fn = conversion[tk[0]] || function(v) { return v };
+
+      if (tk.length === 2) {
+        params[tk[0]] = fn(decodeURIComponent(tk[1]));
+      }
+    }
+
+    return params;
+  }
+
+  // Manage errors
+  function manageError(err, layer) {
+    if(layer && layer.get('type') === 'torque') {
+      $('#not_supported_dialog').show();
+      // hide all the overlays
+      var overlays = this.getOverlays()
+      for (var i = 0; i < overlays.length; ++i) {
+        var o = overlays[i];
+        o.hide && o.hide();
+      }
+    }
+  }
+
+  // Send stats
+  function stats() {
+    var browser;
+    var ua = navigator.userAgent;
+    var checks = [
+        ['MSIE 11.0', 'ms11'],
+        ['MSIE 10.0', 'ms10'],
+        ['MSIE 9.0', 'ms9'],
+        ['MSIE 8.0', 'ms8'],
+        ['MSIE 7.0','ms7'],
+        ['Chrome', 'chr'],
+        ['Firefox', 'ff'],
+        ['Safari', 'ff']
+    ]
+    for(var i = 0; i < checks.length && !browser; ++i) {
+      if(ua.indexOf(checks[i][0]) !== -1) browser = checks[i][1];
+    }
+    browser = browser || 'none';
+    cartodb.core.Profiler.metric('cartodb-js.embed.' + browser).inc();
+  }
+
+  // On load...
+  $(function(){
+    // Set visualization user url prefix
+    cartodb.config.set('url_prefix', 'https://michellejm.carto.com');
+
+    var bool_fn = function(v) { return v == 'true' };
+    var is_custom_install = false;
+    var logo_fn  = function(v) { return ( true || is_custom_install ) ? true : v == 'true' };
+    var layer_fn = function(v) {
+      if(!v || !v.length) {
+          return null;
+      }
+
+      return _.map(v.split("|"), function(v) {
+        return { visible: !!parseInt(v, 10) }
+      });
+
+    };
+
+    var opt = get_url_params({
+      'force_mobile': bool_fn,
+      'search':       bool_fn,
+      'title':        bool_fn,
+      'description':  bool_fn,
+      'shareable':    bool_fn,
+      'fullscreen':   bool_fn,
+      'cartodb_logo': logo_fn,
+      'scrollwheel':  bool_fn,
+      'sublayer_options': layer_fn,
+      'layer_selector': bool_fn,
+      'legends': bool_fn
+    });
+
+
+
+
+    opt.mobile_layout = true;
+
+    cartodb.config.set({
+      cartodb_attributions: "CARTO <a href='https://carto.com/attributions?utm_source=Footer_Link&utm_medium=referral&utm_campaign=Embed_v1&utm_content=Attributions&utm_term=michellejm' target='_blank'>attribution</a>",
+      cartodb_logo_link: "https://carto.com?utm_source=Footer_Link&utm_medium=referral&utm_campaign=Embed_v1&utm_content=Logo"
+    })
+
+    var loadingTime  = cartodb.core.Profiler.metric('cartodb-js.embed.time_full_loaded').start();
+    var visReadyTime = cartodb.core.Profiler.metric('cartodb-js.embed.time_vis_loaded').start();
+    cartodb.createVis('map', JSON.parse('{\"id\":\"f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7\",\"version\":\"0.1.0\",\"title\":\"languages_by_censustracts_nyc\",\"likes\":0,\"description\":null,\"scrollwheel\":false,\"legends\":false,\"url\":null,\"map_provider\":\"leaflet\",\"bounds\":[[40.48978184687258,-74.77294921875],[41.000629848685385,-73.01513671875]],\"center\":\"[40.745696344339564, -73.89404296875]\",\"zoom\":10,\"updated_at\":\"2017-01-19T15:19:46+00:00\",\"layers\":[{\"options\":{\"visible\":true,\"type\":\"Tiled\",\"default\":\"true\",\"url\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":\"0\",\"maxZoom\":\"18\",\"name\":\"Positron\",\"className\":\"httpscartodbbasemapssglobalsslfastlynetlight_nolabelszxypng\",\"attribution\":\"&copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap<\/a> contributors\",\"labels\":{\"url\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png\"},\"urlTemplate\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png\",\"id\":\"0e77c566-b6ba-4b36-8829-1b4545a9ae0a\",\"order\":0},\"infowindow\":null,\"tooltip\":null,\"id\":\"0e77c566-b6ba-4b36-8829-1b4545a9ae0a\",\"order\":0,\"type\":\"tiled\"},{\"type\":\"layergroup\",\"options\":{\"user_name\":\"michellejm\",\"maps_api_template\":\"https://{user}.carto.com:443\",\"sql_api_template\":\"https://{user}.carto.com:443\",\"tiler_protocol\":\"http\",\"tiler_domain\":\"carto.com\",\"tiler_port\":\"80\",\"sql_api_protocol\":\"http\",\"sql_api_domain\":\"carto.com\",\"sql_api_endpoint\":\"/api/v2/sql\",\"sql_api_port\":80,\"filter\":\"mapnik\",\"layer_definition\":{\"stat_tag\":\"f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7\",\"version\":\"1.0.1\",\"layers\":[{\"id\":\"8bd6228d-2e53-4cb7-b286-319932c37443\",\"type\":\"CartoDB\",\"infowindow\":{\"fields\":[{\"name\":\"chinese_percent\",\"title\":true,\"position\":1.7976931348623157e+308}],\"template_name\":\"infowindow_light\",\"template\":\"<div class=\\\"cartodb-popup v2\\\">\\n  <a href=\\\"#close\\\" class=\\\"cartodb-popup-close-button close\\\">x<\/a>\\n  <div class=\\\"cartodb-popup-content-wrapper\\\">\\n    <div class=\\\"cartodb-popup-content\\\">\\n      {{#content.fields}}\\n        {{#title}}<h4>{{title}}<\/h4>{{/title}}\\n        {{#value}}\\n          <p {{#type}}class=\\\"{{ type }}\\\"{{/type}}>{{{ value }}}<\/p>\\n        {{/value}}\\n        {{^value}}\\n          <p class=\\\"empty\\\">null<\/p>\\n        {{/value}}\\n      {{/content.fields}}\\n    <\/div>\\n  <\/div>\\n  <div class=\\\"cartodb-popup-tip-container\\\"><\/div>\\n<\/div>\\n\",\"alternative_names\":{},\"width\":226,\"maxHeight\":180},\"tooltip\":{\"fields\":[],\"template_name\":\"tooltip_light\",\"template\":\"<div class=\\\"cartodb-tooltip-content-wrapper\\\">\\n  <div class=\\\"cartodb-tooltip-content\\\">\\n  {{#fields}}\\n    {{#title}}\\n    <h4>{{title}}<\/h4>\\n    {{/title}}\\n    <p>{{{ value }}}<\/p>\\n  {{/fields}}\\n  <\/div>\\n<\/div>\",\"alternative_names\":{},\"maxHeight\":180},\"legend\":{\"type\":\"choropleth\",\"show_title\":false,\"title\":\"\",\"template\":\"\",\"visible\":true,\"items\":[{\"name\":\"Left label\",\"visible\":true,\"value\":\"0.05\",\"type\":\"text\"},{\"name\":\"Right label\",\"visible\":true,\"value\":\"0.84\",\"type\":\"text\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FFFFB2\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FED976\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FEB24C\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FD8D3C\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FC4E2A\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#E31A1C\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#B10026\",\"type\":\"color\"}]},\"order\":1,\"visible\":false,\"options\":{\"layer_name\":\"Chinese\",\"cartocss\":\"/** choropleth visualization */\\n\\n#languages_by_census_tracts_nyc{\\n  polygon-fill: #FFFFB2;\\n  polygon-opacity: 0.8;\\n  line-color: #FFF;\\n  line-width: 0.5;\\n  line-opacity: 1;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.84] {\\n   polygon-fill: #B10026;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.404] {\\n   polygon-fill: #E31A1C;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.295] {\\n   polygon-fill: #FC4E2A;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.21] {\\n   polygon-fill: #FD8D3C;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.146] {\\n   polygon-fill: #FEB24C;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.092] {\\n   polygon-fill: #FED976;\\n}\\n#languages_by_census_tracts_nyc [ chinese <= 0.046] {\\n   polygon-fill: #FFFFB2;\\n}\",\"cartocss_version\":\"2.1.1\",\"interactivity\":\"cartodb_id\",\"sql\":\"\\nSELECT *, to_char(chinese, \'99V99%\') AS chinese_percent FROM languages_by_census_tracts_nyc\",\"table_name\":\"\\\"\\\".\"}},{\"id\":\"05e5fe6e-0b90-44d6-b920-5fa6f1d5236a\",\"type\":\"CartoDB\",\"infowindow\":{\"fields\":[{\"name\":\"arabic_percent\",\"title\":true,\"position\":2}],\"template_name\":\"table/views/infowindow_light\",\"template\":\"<div class=\\\"cartodb-popup v2\\\">\\n  <a href=\\\"#close\\\" class=\\\"cartodb-popup-close-button close\\\">x<\/a>\\n  <div class=\\\"cartodb-popup-content-wrapper\\\">\\n    <div class=\\\"cartodb-popup-content\\\">\\n      {{#content.fields}}\\n        {{#title}}<h4>{{title}}<\/h4>{{/title}}\\n        {{#value}}\\n          <p {{#type}}class=\\\"{{ type }}\\\"{{/type}}>{{{ value }}}<\/p>\\n        {{/value}}\\n        {{^value}}\\n          <p class=\\\"empty\\\">null<\/p>\\n        {{/value}}\\n      {{/content.fields}}\\n    <\/div>\\n  <\/div>\\n  <div class=\\\"cartodb-popup-tip-container\\\"><\/div>\\n<\/div>\\n\",\"alternative_names\":{},\"width\":226,\"maxHeight\":180},\"tooltip\":{\"fields\":[],\"template_name\":\"tooltip_light\",\"template\":\"<div class=\\\"cartodb-tooltip-content-wrapper\\\">\\n  <div class=\\\"cartodb-tooltip-content\\\">\\n  {{#fields}}\\n    {{#title}}\\n    <h4>{{title}}<\/h4>\\n    {{/title}}\\n    <p>{{{ value }}}<\/p>\\n  {{/fields}}\\n  <\/div>\\n<\/div>\",\"alternative_names\":{},\"maxHeight\":180},\"legend\":{\"type\":\"choropleth\",\"show_title\":false,\"title\":\"\",\"template\":\"\",\"visible\":true,\"items\":[{\"name\":\"Left label\",\"visible\":true,\"value\":\"0.01\",\"type\":\"text\"},{\"name\":\"Right label\",\"visible\":true,\"value\":\"0.21\",\"type\":\"text\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FFFFB2\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FED976\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FEB24C\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FD8D3C\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#FC4E2A\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#E31A1C\",\"type\":\"color\"},{\"name\":\"Color\",\"visible\":true,\"value\":\"#B10026\",\"type\":\"color\"}]},\"order\":2,\"visible\":true,\"options\":{\"layer_name\":\"Arabic\",\"cartocss\":\"/** choropleth visualization */\\n\\n#languages_by_census_tracts_nyc{\\n  polygon-fill: #FFFFB2;\\n  polygon-opacity: 0.8;\\n  line-color: #FFF;\\n  line-width: 0.5;\\n  line-opacity: 1;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.213] {\\n   polygon-fill: #B10026;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.11] {\\n   polygon-fill: #E31A1C;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.076] {\\n   polygon-fill: #FC4E2A;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.055] {\\n   polygon-fill: #FD8D3C;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.041] {\\n   polygon-fill: #FEB24C;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.027] {\\n   polygon-fill: #FED976;\\n}\\n#languages_by_census_tracts_nyc [ arabic <= 0.013] {\\n   polygon-fill: #FFFFB2;\\n}\",\"cartocss_version\":\"2.1.1\",\"interactivity\":\"cartodb_id\",\"sql\":\"SELECT *, to_char(arabic, \'99V99%\') AS arabic_percent FROM languages_by_census_tracts_nyc\",\"table_name\":\"\\\"\\\".\"}}]},\"attribution\":\"\"}},{\"options\":{\"visible\":true,\"type\":\"Tiled\",\"default\":\"true\",\"url\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":\"0\",\"maxZoom\":\"18\",\"attribution\":\"&copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap<\/a> contributors\",\"urlTemplate\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_only_labels/{z}/{x}/{y}.png\",\"name\":\"Positron Labels\",\"id\":\"6804986d-d7d5-4341-b0a2-0c3e4472b2fc\",\"className\":\"httpscartodbbasemapssglobalsslfastlynetlight_only_labelszxypng\",\"order\":4},\"infowindow\":null,\"tooltip\":null,\"id\":\"6804986d-d7d5-4341-b0a2-0c3e4472b2fc\",\"order\":4,\"type\":\"tiled\"}],\"overlays\":[{\"type\":\"share\",\"order\":2,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"\"},{\"type\":\"search\",\"order\":3,\"options\":{\"display\":true,\"x\":60,\"y\":20},\"template\":\"\"},{\"type\":\"layer_selector\",\"order\":4,\"options\":{\"x\":220,\"y\":60,\"display\":true},\"template\":null},{\"type\":\"zoom\",\"order\":6,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"<a href=\\\"#zoom_in\\\" class=\\\"zoom_in\\\">+<\/a> <a href=\\\"#zoom_out\\\" class=\\\"zoom_out\\\">-<\/a>\"},{\"type\":\"loader\",\"order\":8,\"options\":{\"display\":true,\"x\":20,\"y\":150},\"template\":\"<div class=\\\"loader\\\" original-title=\\\"\\\"><\/div>\"},{\"type\":\"logo\",\"order\":9,\"options\":{\"display\":true,\"x\":10,\"y\":40},\"template\":\"\"}],\"prev\":null,\"next\":null,\"transition_options\":{\"time\":0}}'), opt, function(vis) {
+      visReadyTime.end();
+      vis.on('load', function() {
+        loadingTime.end();
+      });
+
+      var like = new cdb.open.LikeView({
+        el: $(".js-like"),
+        auto_fetch: false,
+        model: cdb.open.Like.newByVisData({
+          url: "https://michellejm.carto.com/api/v1/viz/f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7/like",
+          vis_id: "f07c01f8-85b7-11e6-96f9-0e05a8b3e3d7",
+          likes: 0
+        })
+      });
+
+      window.vis = vis;
+
+      // fixes default position of the overlays
+      setTimeout(function() {
+        $(window).trigger("map_resized");
+      }, 400);
+      // some stats
+      stats();
+    }).on('error', manageError);
+  });
+
+  //<!-- load stats -->
+    if (location.protocol.indexOf('https') === -1) {
+      jQuery.getScript('//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.163/javascripts/statsc.js', function(ready) {
+        statsc.connect('http://s.cartodb.net:80/');
+        cartodb.core.Profiler.backend(function () {
+          statsc.send.apply(statsc, arguments);
+        })
+        // stop sending stats after 11 seconds
+        // statsc send stats in 5 secs interval so allow to send at least twice
+        setTimeout(function() {
+          cartodb.core.Profiler.backend(null);
+        }, 11*1000);
+      })
+    }
+
+</script>
+
+  <script>
+  window._trackJs = {
+    enabled: true,
+    application: 'vzeuvy3koiv3xsukyffu'
+  };
+</script>
+<script type="text/javascript" src="./tracker.js" data-token="cf7a7cd8411140689ea94e92d9fba842"></script>
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20934186-10']);
+  _gaq.push(['_setDomainName', 'carto.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script>
+
+
+  
+
+</body></html>
